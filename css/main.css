@@ -291,45 +291,12 @@ section .contact h1 {
   text-align: center;
 }
 
-section .cont-form {
+section .cont-form{
+  text-align: center;
   width: 100%;
-  margin: auto;
-  font-size: 20px;
-  padding: 0;
 }
-section .cont-form form {
-  width: 90%;
-  margin: auto;
-}
-section .cont-form input,
-textarea {
-  width: 100% !important;
-  font-size: 22px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  background: whitesmoke;
-  padding: 10px;
-  margin: 5px 0px;
-}
-
-#btn-email {
-  background-color: var(--menu-color);
-  color: white;
-}
-
-#btn-email:hover {
-  background-color: var(--main-color);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.error {
-  display: block;
-  padding: 5px 10px;
-  background-color: #f3aeae;
-  color: #af0000;
-  border: 1px #e21d1d solid;
-  display: none;
+section .cont-form div{
+  margin-bottom: 10px;
 }
 
 footer {
@@ -439,17 +406,18 @@ footer .social-media a {
   section .container-technologies {
     width: 80%;
   }
+  section .cont-form{
+    font-size: 1.3rem;
+  }
   footer {
     flex-direction: row;
   }
   footer .created-by {
-    /* background-color: red; */
     justify-content: flex-start;
     padding: 0px 0px 0px 10px;
   }
   footer .social-media {
     justify-content: flex-end;
-    /* padding-right: 10px; */
   }
 }
 @media (min-width: 1030px) {

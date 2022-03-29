@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/main.css">
@@ -65,7 +65,7 @@
         <article class="article-image">
         </article>
         <article class="text-image">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit..</h2>
+            <h2><span class="typed"></span></h2>
         </article>
         <article id="about-me" class="about-me">
             <div class="profile-image">
@@ -74,34 +74,36 @@
                 </div>
             </div>
             <div class="profile-description">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo a, labore id maiores asperiores
-                laudantium saepe neque exercitationem necessitatibus omnis, at porro possimus? Asperiores quod provident
-                repellat amet optio."
+                "Hola soy Matias Barra, tengo 21 años, soy de la Región de Los Ríos, Valdivia y actualmente 
+                me encuentro en búsqueda de empleo como desarrollador de software, estoy recientemente
+                egresado en la Universidad de INACAP Valdivia como analista programador, en este portafolio 
+                presento las tecnologías que he utilizado y diferentes proyectos realizados
+                "
             </div>
         </article>
         <article id="technologies" class="technologies">
             <h1>TECNOLOGÍAS</h1>
             <div class="container-technologies">
                 <div class="technology">
-                    <img src="img/html5.svg" alt="">
+                    <img src="img/html5.svg" alt="HTML5">
                 </div>
                 <div class="technology">
-                    <img src="img/css.svg" alt="">
+                    <img src="img/css.svg" alt="CSS">
                 </div>
                 <div class="technology">
-                    <img src="img/bootstrap.svg" alt="">
+                    <img src="img/bootstrap.svg" alt="BOOTSTRAP">
                 </div>
                 <div class="technology">
-                    <img src="img/javascript.svg" alt="">
+                    <img src="img/javascript.svg" alt="JAVASCRIPT">
                 </div>
                 <div class="technology">
-                    <img src="img/php.svg" alt="">
+                    <img src="img/php.svg" alt="PHP">
                 </div>
                 <div class="technology">
-                    <img src="img/mysql.svg" alt="">
+                    <img src="img/mysql.svg" alt="MYSQL">
                 </div>
                 <div class="technology">
-                    <img src="img/git.svg" alt="">
+                    <img src="img/git.svg" alt="GIT">
                 </div>
             </div>
         </article>
@@ -109,50 +111,38 @@
             <h1>PROYECTOS</h1>
             <div class="container-projects">
                 <div class="project">
-                    <img src="img/projects.jpg" alt="">
+                    <img src="img/weather-app.PNG" alt="weather app">
                     <div class="cont-textos">
                         <div class="cont-title">
-                            <h2>TITULO</h2>
+                            <h2>Weather App</h2>
                         </div>
                     </div>
                     <div class="cont-links">
-                        <a href="#">GitHub</a>
-                        <a href="#">Ver ahora</a>
+                        <a href="https://github.com/Matias134/Weather-app" target="_blank">GitHub</a>
+                        <a href="https://weather-api.online/" target="_blank">Ver ahora</a>
                     </div>
                 </div>
                 <div class="project">
-                    <img src="img/projects.jpg" alt="">
+                    <img src="img/crud-app.PNG" alt="crud app">
                     <div class="cont-textos">
                         <div class="cont-title">
-                            <h2>TITULO</h2>
+                            <h2>Crud App</h2>
                         </div>
                     </div>
                     <div class="cont-links">
-                        <a href="#">GitHub</a>
-                        <a href="#">Ver ahora</a>
+                        <a href="https://github.com/Matias134/CrudApp" target="_blank">GitHub</a>
+                        <a href="https://crud-app.online/" target="_blank">Ver ahora</a>
                     </div>
                 </div>
                 <div class="project">
-                    <img src="img/projects.jpg" alt="">
+                    <img src="img/login-app.PNG" alt="">
                     <div class="cont-textos">
                         <div class="cont-title">
-                            <h2>TITULO</h2>
+                            <h2>Login App</h2>
                         </div>
                     </div>
                     <div class="cont-links">
-                        <a href="#">GitHub</a>
-                        <a href="#">Ver ahora</a>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="img/projects.jpg" alt="">
-                    <div class="cont-textos">
-                        <div class="cont-title">
-                            <h2>TITULO</h2>
-                        </div>
-                    </div>
-                    <div class="cont-links">
-                        <a href="#">GitHub</a>
+                        <a href="https://github.com/Matias134/authcustom" target="_blank">GitHub</a>
                         <a href="#">Ver ahora</a>
                     </div>
                 </div>
@@ -162,33 +152,23 @@
         <article id="contact" class="contact">
             <h1>CONTACTO</h1>
             <div class="cont-form">
-                <form id="contact-form">
-                    <input type="hidden" name="post-email">
-                    <b>Nombre</b>
-                    <input type="text" name="name" id="name">
-                    <b>Correo electronico</b>
-                    <input type="email" name="email" id="email">
-                    <b>Comentario</b>
-                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                    <span class="error animate__animated animate__fadeIn">error</span>
-                    <input type="button" value="Enviar" id="btn-email">
-                </form>
+                <div><i class="far fa-envelope"></i> matias2000fernando@gmail.com </div>
+                <div><i class="fas fa-phone"></i> +56 9 5695 4139 </div>
             </div>
         </article>
     </section>
     <footer>
         <div class="created-by">
-            <i class="far fa-copyright"></i>Copyright 2022, creado por Matias Barra.
+            <i class="far fa-copyright"></i>Copyright 2022, Matias Barra.
         </div>
         <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/matias.fernando.505960" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/Matias134" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/matias-fernando-barra-santana-8b4690221/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/typed.js"></script>
 <script src="js/animate.js"></script>
-<script src="js/app.js"></script>
 
 </html>
