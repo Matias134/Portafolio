@@ -2,6 +2,17 @@ const nav = document.querySelector('.nav');
 const iconMenu = document.querySelector('#icon-menu');
 const ul = nav.childNodes[1];
 
+const typed = new Typed('.typed',{
+    strings:['Analista Programador', 'Front-end', 'Back-end'],
+    typeSpeed: 50,
+    startDelay: 10,
+    backSpeed: 30,
+    backDelay: 1500,
+    loop: true,
+    showCursor: false
+});
+
+
 let numerClickMenu = 0;
 iconMenu.addEventListener('click', () => {
     if(numerClickMenu % 2 == 0){
